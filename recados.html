@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/recados.css">
+    <title>Document</title>
+</head>
+<body>
+ <div class="criarRecado">
+
+  <div>
+    <input type="text" name="inputDesc" id="inputDesc">
+    <input type="text" name="inputDet" id="inputDet">
+
+ </div>
+ <div>
+  <button type="button" id="btnSalvar">Salvar</button>
+ </div>
+</div>
+ <div> 
+   <p id="recadodefault">Crie seu primeiro recado!</p>
+    <table style="display:none;" class="table">
+
+  <thead >
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Descrição</th>
+      <th scope="col">Detalhamento</th>
+      <th scope="col">Ações</th>
+    </tr>
+
+  </thead>
+
+  <tbody id="tbody">
+
+
+  </tbody>
+</table>
+</div>
+      <button id="logout">Sair</button>
+  <script src="./js/recados.js"></script>
+</body>
+</html>
